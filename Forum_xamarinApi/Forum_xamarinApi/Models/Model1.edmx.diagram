@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="04b56cf705c8439cbe28ada1bb16f056" Name="Diagram1">
+        <EntityTypeShape EntityType="MasterCodeModel.Acces" Width="1.5" PointX="0.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Bloc" Width="1.5" PointX="5.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Categorie" Width="1.5" PointX="3" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Commentaire" Width="1.5" PointX="16.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Forum" Width="1.5" PointX="8.25" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Langue" Width="1.5" PointX="3.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Like" Width="1.5" PointX="13.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Maintenance" Width="1.5" PointX="5.25" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Media" Width="1.5" PointX="16.5" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Message" Width="1.5" PointX="13.5" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Messagerie" Width="1.5" PointX="6" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.MotClef" Width="1.5" PointX="6" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.MotClefCategorie" Width="1.5" PointX="8.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Notification" Width="1.5" PointX="18.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Page" Width="1.5" PointX="8.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Priorite" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Publication" Width="1.5" PointX="11.25" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Publicite" Width="1.5" PointX="11.25" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Recherche" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Statut" Width="1.5" PointX="0.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Style" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Traduction" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Trophee" Width="1.5" PointX="0.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.TypeBloc" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.TypeMedia" Width="1.5" PointX="14.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.TypePublication" Width="1.5" PointX="9" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterCodeModel.Utilisateur" Width="1.5" PointX="3" PointY="25.5" IsExpanded="true" />
+        <AssociationConnector Association="MasterCodeModel.FK__Categorie__IdAcc__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Forum__IdAcces__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdAcces__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Messageri__IdAcc__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdAcces__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdAcc__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__TypeBloc__IdAcce__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Utilisate__IdAcc__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Bloc__IdStyle__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Bloc__IdTypeBloc__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Categorie__IdSta__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Forum__IdCategor__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__MotClefCa__IdCat__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdCategori__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdCat__245D67DE" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Commentai__IdAut__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Commentai__IdPub__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Commentai__IdSta__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdCommenta__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Forum__IdAuteur__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Forum__IdLangue__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Forum__IdStatut__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdForum__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Message__IdForum__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__MotClef__IdLangu__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdLan__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Traductio__IdLan__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Utilisate__IdLan__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdMessage__503BEA1C" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdPublicat__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdPublicit__51300E55" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Like__IdUtilisat__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Maintenan__IdRes__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdAuteur__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdPublica__531856C7" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdStatut__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdTypeBlo__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Media__IdTypeMed__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Notificat__IdPie__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdMaquette__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Message__IdAuteu__41EDCAC5" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Message__IdStatu__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Messageri__IdAut__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Messageri__IdSta__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__MotClefCa__IdMot__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Notificat__IdDes__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Notificat__IdExp__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdAuteur__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdPublicat__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdStatut__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Page__IdStyle__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdAut__46B27FE2" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdSta__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Publicati__IdTyp__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__TypeBloc__IdStat__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Utilisate__IdSta__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterCodeModel.FK__Utilisate__IdTro__498EEC8D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Forum_xamarin.Views.Mon_comptePage"
+             xmlns:vm="clr-namespace:Forum_xamarin.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:Mon_compteViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="10,10,10,10" Spacing="20" >
+
+                <Entry Placeholder="* Modifier l'adresse e-mail" MaxLength="50" />
+                <Entry Placeholder="* Modifier le mot de passe" MaxLength="50" IsPassword="True" />
+
+                <Button Margin="25,5,25,5" Text="Enregistrer"
+                        TextColor="Black"
+                        CornerRadius="10"/>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

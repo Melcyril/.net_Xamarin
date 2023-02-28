@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.Android\\Forum_xamarin.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.Android\\Forum_xamarin.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.Android\\Forum_xamarin.Android.csproj",
+        "projectName": "Forum_xamarin.Android",
+        "projectPath": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.Android\\Forum_xamarin.Android.csproj",
+        "packagesPath": "C:\\Users\\afpa\\.nuget\\packages\\",
+        "outputPath": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\afpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.csproj": {
+                "projectPath": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.csproj",
+        "projectName": "Forum_xamarin",
+        "projectPath": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin.csproj",
+        "packagesPath": "C:\\Users\\afpa\\.nuget\\packages\\",
+        "outputPath": "C:\\inetpub\\wwwroot\\Forum_xamarin\\Forum_xamarin\\Forum_xamarin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\afpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
